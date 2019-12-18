@@ -2347,7 +2347,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863631620}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 1225, y: 909, z: 1953}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3944,7 +3944,7 @@ GameObject:
   - component: {fileID: 1344264345}
   - component: {fileID: 1344264347}
   - component: {fileID: 1344264346}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TU/e Campus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
