@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Event : MonoBehaviour
+public class SetActiveTrue : MonoBehaviour
 {
     public GameObject panel;
-    public void Deactivate()
+    public void setActive1()
     {
-        panel.SetActive(false);
+        panel.SetActive(true);
     }
 }
