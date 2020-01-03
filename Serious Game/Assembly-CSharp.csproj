@@ -62,8 +62,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\GameManager.cs" />
-    <Compile Include="Assets\GoToBuilding.cs" />
+    <Compile Include="Assets\Scripts\Event.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\GoToBuilding.cs" />
+    <None Include="Assets\Fonts\Roboto\LICENSE.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/yana/Documents/DesignForGameAndPlay2/Serious Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

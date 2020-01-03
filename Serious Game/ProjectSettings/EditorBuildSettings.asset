@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Metaforum.unity
     guid: dc1c5d7f2a1b79242af32f470e55176f
+  - enabled: 1
+    path: Assets/Scenes/Atlas.unity
+    guid: 0b6fe211c83d3db48b1cb013ddd9ba67
   m_configObjects: {}
