@@ -6,23 +6,33 @@ using UnityEngine.UI;
 public class Countdown : MonoBehaviour
 {
     public Text countdown;
-    // Update is called once per frame
+
     void Update()
     {
-        countdown.text = "3";
+        countdown.text = "5";
         if (Time.time > 1)
         {
-            countdown.text = "2";
+            countdown.text = "4";
         }
         if (Time.time > 2)
         {
-            countdown.text = "1";
+            countdown.text = "3";
         }
         if (Time.time > 3)
         {
-            countdown.text = "";
+            countdown.text = "2";
         }
+        if (Time.time > 4)
+        {
+            countdown.text = "1";
+        }
+        if (Time.time > 5)
+        {
+            countdown.text = "0";
+        }
+        if (Time.time > 6)
+        {
 
-        //Might need another if here if time ran out but player not chosen an option 
+        }
     }
 }

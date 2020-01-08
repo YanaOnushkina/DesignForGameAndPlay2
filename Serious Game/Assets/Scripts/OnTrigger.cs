@@ -4,52 +4,56 @@ using UnityEngine;
 
 public class OnTrigger : MonoBehaviour
 {
-    bool onTrigger;
-    public GameObject correctUI;
-    public GameObject wrongUI;
+    bool onTriggerC;
+    bool onTriggerF;
+
+    public GameObject canvas;
 
     void OnTriggerEnter(Collider other)
     {
-        onTrigger = true;
         Debug.Log("PLAYER TRIGGER ENTER");
         if (other.tag == "Correct_Choice")
         {
+            onTriggerC = true;
             StartCoroutine(Countdown(3, "correct"));
         }
 
         if (other.tag == "Wrong_Choice")
         {
+            onTriggerF = true;
             StartCoroutine(Countdown(3, "wrong"));
         }
     }
 
     void OnTriggerExit(Collider other)
     {
-        onTrigger = false;
+        onTriggerC = false;
+        onTriggerF = true;
         Debug.Log("PLAYER TRIGGER EXIT");
     }
     IEnumerator Countdown(int seconds, string choice)
     {
         int count = seconds;
 
-        while (count > 0 && onTrigger)
+        while (count > 0 && (onTriggerC || onTriggerF))
         {
             Debug.Log(count);
             yield return new WaitForSeconds(1);
             count--;
         }
 
-        Debug.Log(onTrigger);
-        if (choice == "correct" && onTrigger)
+        Debug.Log(onTriggerC);
+        Debug.Log(onTriggerF);
+        if (choice == "correct" && onTriggerC)
         {
             Debug.Log("Correct Choice");
-            correctUI.SetActive(true);
+            canvas.GetComponent<WinOrLoose>().CorrectWrong("correct");
         }
 
-        if (choice == "wrong" && onTrigger)
+        if (choice == "wrong" && onTriggerF)
         {
             Debug.Log("Wrong Choice");
-            wrongUI.SetActive(true);
+            canvas.GetComponent<WinOrLoose>().CorrectWrong("wrong");
         }
     }
 }
