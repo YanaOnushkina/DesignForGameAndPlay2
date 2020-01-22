@@ -7,15 +7,16 @@ public class OnTrigger : MonoBehaviour
     bool onTriggerC;
     bool onTriggerF;
 
+    public GameManager manager;
+
     public GameObject canvas;
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("PLAYER TRIGGER ENTER");
         if (other.tag == "Correct_Choice")
         {
             onTriggerC = true;
-            StartCoroutine(Countdown(3, "correct"));
+            StartCoroutine(Countdown(1, "correct"));
         }
 
         if (other.tag == "Wrong_Choice")
@@ -29,7 +30,6 @@ public class OnTrigger : MonoBehaviour
     {
         onTriggerC = false;
         onTriggerF = true;
-        Debug.Log("PLAYER TRIGGER EXIT");
     }
     IEnumerator Countdown(int seconds, string choice)
     {
@@ -37,23 +37,23 @@ public class OnTrigger : MonoBehaviour
 
         while (count > 0 && (onTriggerC || onTriggerF))
         {
-            Debug.Log(count);
             yield return new WaitForSeconds(1);
             count--;
         }
-
-        Debug.Log(onTriggerC);
-        Debug.Log(onTriggerF);
         if (choice == "correct" && onTriggerC)
         {
-            Debug.Log("Correct Choice");
             canvas.GetComponent<WinOrLoose>().CorrectWrong("correct");
+            onTriggerC = false;
+            onTriggerF = false;
+
         }
 
         if (choice == "wrong" && onTriggerF)
         {
-            Debug.Log("Wrong Choice");
             canvas.GetComponent<WinOrLoose>().CorrectWrong("wrong");
+            manager.GetComponent<GameManager>().scoreCounter -= 1;
+            onTriggerC = false;
+            onTriggerF = false;
         }
     }
 }

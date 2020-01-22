@@ -618,7 +618,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Building: Flux
 
-    Department: '
+    Department: Electrical Engineering, Applied Physics'
 --- !u!222 &69350747
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -939,7 +939,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Building: Helix
 
-    Department: '
+    Department: Chemical Engineering and Chemistry'
 --- !u!222 &89960508
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1801,7 +1801,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Building: Metaforum
 
-    Department: '
+    Department: Mathematics and Computer Science'
 --- !u!222 &337360488
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3932,7 +3932,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Building: Gemini South
 
-    Department: '
+    Department: Biomedical Engineering'
 --- !u!222 &966890198
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4724,7 +4724,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Building: Atlas
 
-    Department: '
+    Department: Industrial Design, Industrial Engineering and Innovation Sciences'
 --- !u!222 &1145585805
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5575,7 +5575,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Building: Luna
 
-    Department: '
+    Department: Student housing'
 --- !u!222 &1278879653
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5950,9 +5950,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Building: LaPlace
-
-    Department: '
+  m_Text: 'Building: LaPlace'
 --- !u!222 &1488426094
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6031,7 +6029,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Building: Sport Centrum
 
-    Department: '
+    Department: Gym for students and staff'
 --- !u!222 &1575319826
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6850,7 +6848,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Building: Traverse
 
-    Department: '
+    Department: Eindhoven School of Education'
 --- !u!222 &1888112953
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7006,7 +7004,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Building: Auditorium
 
-    Department: '
+    Department: Lecture rooms'
 --- !u!222 &1911618401
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7206,7 +7204,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Building: Gemini North
 
-    Department: '
+    Department: Mechanical Engineering'
 --- !u!222 &2037429719
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7393,7 +7391,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Building: Aurora
 
-    Department: '
+    Department: Student housing'
 --- !u!222 &2056541904
 CanvasRenderer:
   m_ObjectHideFlags: 0
