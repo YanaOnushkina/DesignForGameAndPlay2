@@ -62,8 +62,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AddWords.cs" />
     <Compile Include="Assets\Begin.cs" />
+    <Compile Include="Assets\CHange_Script.cs" />
     <Compile Include="Assets\ColorChange.cs" />
+    <Compile Include="Assets\CountDownB.cs" />
+    <Compile Include="Assets\Memorymanager.cs" />
     <Compile Include="Assets\Restart.cs" />
     <Compile Include="Assets\Scripts\Countdown.cs" />
     <Compile Include="Assets\Scripts\FollowPlayer.cs" />
@@ -73,8 +77,11 @@
     <Compile Include="Assets\Scripts\OnTrigger.cs" />
     <Compile Include="Assets\Scripts\SetActiveFals.cs" />
     <Compile Include="Assets\Scripts\SetActiveTrue.cs" />
+    <Compile Include="Assets\ShowScore.cs" />
+    <Compile Include="Assets\start.cs" />
     <Compile Include="Assets\WinOrLoose.cs" />
     <None Include="Assets\Fonts\Roboto\LICENSE.txt" />
+    <None Include="Assets\Soundtrack\Credits for soundtrack.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/yana/Documents/DesignForGameAndPlay2/Serious Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
