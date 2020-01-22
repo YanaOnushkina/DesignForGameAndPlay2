@@ -22,7 +22,7 @@ public class OnTrigger : MonoBehaviour
         if (other.tag == "Wrong_Choice")
         {
             onTriggerF = true;
-            StartCoroutine(Countdown(3, "wrong"));
+            StartCoroutine(Countdown(1, "wrong"));
         }
     }
 
