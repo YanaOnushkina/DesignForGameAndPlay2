@@ -10,6 +10,12 @@ public class Movement : MonoBehaviour
 
     public float sideForce = 500f;
 
+    private void Start()
+    {
+        Material M = rb.gameObject.GetComponent<Material>();
+
+        Destroy(M);
+    }
     // Update is called once per frame
     void FixedUpdate()
     {

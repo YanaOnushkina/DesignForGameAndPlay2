@@ -9,9 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/TUe Campus.unity
     guid: 29d975788d6d4ea468841699009a47a7
   - enabled: 1
-    path: Assets/Scenes/Metaforum.unity
-    guid: dc1c5d7f2a1b79242af32f470e55176f
+    path: Assets/Scenes/PT_Game_1.unity
+    guid: 1c6a34ae2fa4b1b40990cfdbbedfa471
   - enabled: 1
-    path: Assets/Scenes/Atlas.unity
-    guid: 0b6fe211c83d3db48b1cb013ddd9ba67
+    path: Assets/Scenes/PT_Memory.unity
+    guid: 12947064a46087d489b69c4facffda8f
+  - enabled: 1
+    path: Assets/Scenes/Atlas_Inside.unity
+    guid: 7f7ddafafe0ff9a449ba557cc524a9a0
   m_configObjects: {}

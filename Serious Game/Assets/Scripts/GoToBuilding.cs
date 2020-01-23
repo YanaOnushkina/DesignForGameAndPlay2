@@ -11,13 +11,13 @@ public class GoToBuilding : MonoBehaviour
         if (button.name == "Button Metaforum")
         {
             Debug.Log("Metaforum");
-            SceneManager.LoadScene("Metaforum");
+            text.SetActive(true);
         }
 
         if (button.name == "Button Atlas")
         {
             Debug.Log("Atlas");
-            SceneManager.LoadScene("Atlas");
+            SceneManager.LoadScene("Atlas_Inside");
         }
 
         if (button.name == "Button Luna")

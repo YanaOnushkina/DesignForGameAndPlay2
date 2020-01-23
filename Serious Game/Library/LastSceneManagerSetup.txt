@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/TUe Campus.unity
-=======
-- path: Assets/Scenes/PT_Game_1.unity
->>>>>>> ec695966b3106d3ae9685b4ebd75bd0ba35ff84e
+- path: Assets/Scenes/Atlas_Inside.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
