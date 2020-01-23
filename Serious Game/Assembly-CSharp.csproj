@@ -60,6 +60,8 @@
      <Compile Include="Assets\CHange_Script.cs" />
      <Compile Include="Assets\ColorChange.cs" />
      <Compile Include="Assets\CountDownB.cs" />
+     <Compile Include="Assets\GetScore.cs" />
+     <Compile Include="Assets\GOback.cs" />
      <Compile Include="Assets\Memorymanager.cs" />
      <Compile Include="Assets\Restart.cs" />
      <Compile Include="Assets\Scripts\Countdown.cs" />

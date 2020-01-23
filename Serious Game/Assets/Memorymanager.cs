@@ -49,17 +49,13 @@ public class Memorymanager : MonoBehaviour
         while (counter < 10)
         {
             whichList = Random.Range(0, 2);
-            Debug.Log(whichList);
             if (whichList == 0 && text.Count > 0)
             {
                 randomnumber = Random.Range(0, text.Count - 1);
-                Debug.Log(text[randomnumber]);
             }
             if (whichList == 1 && falsewords.Count > 0)
             {
                 randomnumber = Random.Range(0, falsewords.Count - 1);
-                Debug.Log(falsewords[randomnumber]);
-                buttonWOrds.Add(falsewords[randomnumber]);
             }
             if(counter == 0 && whichList == 0)
             {
@@ -185,16 +181,12 @@ public class Memorymanager : MonoBehaviour
             if (whichList == 0)
             {
                 word = text[randomnumber];
-                Debug.Log(text.Count);
                 text.Remove(word);
-                Debug.Log(text.Count);
             }
             if (whichList == 1)
             {
                 word = falsewords[randomnumber];
-                Debug.Log(falsewords.Count);
                 falsewords.Remove(word);
-                Debug.Log(falsewords.Count);
             }
         }
         counter = 0;
@@ -247,8 +239,6 @@ public class Memorymanager : MonoBehaviour
 
             if (length >= 0)
             {
-                Debug.Log( "randomnumber" + randomnumber);
-                Debug.Log("length" + length);
                 text.Remove(text[randomnumber]);
             }
             counter += 1;
